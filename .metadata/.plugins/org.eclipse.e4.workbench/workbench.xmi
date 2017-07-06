@@ -47,11 +47,10 @@
           <tags>persp.actionSet:com.aptana.js.debug.ui.actionSet</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.project_wizard</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.module.wizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_e-iP1TrlEeeqo4fFXaU5HQ" selectedElement="_e-iP1jrlEeeqo4fFXaU5HQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_e-iP1TrlEeeqo4fFXaU5HQ" selectedElement="_e-iP3jrlEeeqo4fFXaU5HQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_e-iP1jrlEeeqo4fFXaU5HQ" containerData="2000" selectedElement="_e-iP1zrlEeeqo4fFXaU5HQ">
               <children xsi:type="basic:PartStack" xmi:id="_e-iP1zrlEeeqo4fFXaU5HQ" elementId="leftArea" containerData="7500" selectedElement="_e-iP2jrlEeeqo4fFXaU5HQ">
                 <tags>newtablook</tags>
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP2DrlEeeqo4fFXaU5HQ" elementId="com.aptana.explorer.view" toBeRendered="false" ref="_e-iQ4zrlEeeqo4fFXaU5HQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP2TrlEeeqo4fFXaU5HQ" elementId="com.aptana.ui.io.remoteview" toBeRendered="false" ref="_e-iQ5DrlEeeqo4fFXaU5HQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP2jrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_e-iQ0jrlEeeqo4fFXaU5HQ"/>
@@ -64,8 +63,11 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_e-iP3jrlEeeqo4fFXaU5HQ" containerData="8000" selectedElement="_e-iP4DrlEeeqo4fFXaU5HQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_e-iP3zrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_e-iQzzrlEeeqo4fFXaU5HQ"/>
-              <children xsi:type="basic:PartStack" xmi:id="_e-iP4DrlEeeqo4fFXaU5HQ" elementId="terminalArea" containerData="2500" selectedElement="_e-iP4TrlEeeqo4fFXaU5HQ">
+              <children xsi:type="basic:PartStack" xmi:id="_e-iP4DrlEeeqo4fFXaU5HQ" elementId="terminalArea" visible="false" containerData="2500" selectedElement="_e-iP4TrlEeeqo4fFXaU5HQ">
                 <tags>newtablook</tags>
+                <tags>Minimized</tags>
+                <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP4TrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_e-iRADrlEeeqo4fFXaU5HQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP4jrlEeeqo4fFXaU5HQ" elementId="com.aptana.terminal.views.terminal:*" toBeRendered="false" ref="_e-iRATrlEeeqo4fFXaU5HQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_e-iP4zrlEeeqo4fFXaU5HQ" elementId="com.aptana.terminal.views.terminal" toBeRendered="false" ref="_e-iRAjrlEeeqo4fFXaU5HQ"/>
@@ -102,7 +104,7 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_YfyKQGIiEeec7oKV2CFsCA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="app.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; partName=&quot;app.js&quot; title=&quot;app.js&quot; tooltip=&quot;CalCu/Resources/app.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CalCu/Resources/app.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;456&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; partName=&quot;app.js&quot; title=&quot;app.js&quot; tooltip=&quot;CalCu/Resources/app.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CalCu/Resources/app.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1227&quot; selectionTopPixel=&quot;1366&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.js</tags>
           <tags>removeOnHide</tags>
@@ -113,8 +115,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_e-iQ0zrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -155,6 +155,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_UwlywD-TEee4Qr2B6P_vMw" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -206,7 +208,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_e-iRETrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_wv_tN2IfEeec7oKV2CFsCA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_e-lUnTrlEeeqo4fFXaU5HQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nnk1gGIyEeeA4MF9X7kZ3A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_e-lUnTrlEeeqo4fFXaU5HQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_e-iRIDrlEeeqo4fFXaU5HQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -231,7 +233,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_e-iRWjrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_wwCwiWIfEeec7oKV2CFsCA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_e-lTezrlEeeqo4fFXaU5HQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_nnn40GIyEeeA4MF9X7kZ3A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_e-lTezrlEeeqo4fFXaU5HQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_e-iRZDrlEeeqo4fFXaU5HQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -273,8 +275,8 @@
         <tags>TrimStack</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_e-iReDrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Right">
-      <children xsi:type="menu:ToolControl" xmi:id="_e-iReTrlEeeqo4fFXaU5HQ" elementId="terminalArea(com.appcelerator.titanium.ui.StudioPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_e-iReDrlEeeqo4fFXaU5HQ" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_e-iReTrlEeeqo4fFXaU5HQ" elementId="terminalArea(com.appcelerator.titanium.ui.StudioPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
     </trimBars>
