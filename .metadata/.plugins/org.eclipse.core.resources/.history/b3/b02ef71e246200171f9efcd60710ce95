@@ -1,0 +1,26 @@
+var window = Ti.UI.createWindow({
+	title:"its working",
+	backgroundColor:"white",
+	layout:"vertical"
+});
+//create view 
+var view01 = Ti.UI.createView({
+  	 backgroundColor:'red',
+     width:50,
+     height:50
+	
+});
+var view02 = Ti.UI.createView({
+     backgroundColor:'green',
+     width:50,
+     height:50
+	
+});
+ var label = Ti.UI.createLabel({
+ 	text:"Welcome to the work",
+ });
+ window.open();
+view01.add(label);
+window.add(view01);
+window.add(view02);
+

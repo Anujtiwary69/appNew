@@ -1,0 +1,8 @@
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/android/support/v7/appcompat/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/android/support/v7/cardview/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/com/anujtiwari/AssetCryptImpl.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/com/anujtiwari/CalcuActivity.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/com/anujtiwari/CalcuAppInfo.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/com/anujtiwari/CalcuApplication.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/com/anujtiwari/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/CalCu/build/android/gen/ti/modules/titanium/ui/R.java"

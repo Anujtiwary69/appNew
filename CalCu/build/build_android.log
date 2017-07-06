@@ -1,0 +1,637 @@
+
+7/6/2017, 12:11:59 PM
+
+Operating System
+  Name                        = Microsoft Windows 10 Home Single Language
+  Version                     = 10.0.15063
+  Architecture                = 32bit
+  # CPUs                      = 8
+  Memory                      = 8525955072
+
+Node.js
+  Node.js Version             = 4.6.0
+  npm Version                 = 2.15.9
+
+Titanium CLI
+  CLI Version                 = 5.0.14
+
+Titanium SDK
+  SDK Version                 = 6.0.4.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\ameen\.appcelerator\install\6.2.2\package\node_modules\titanium\lib\titanium.js build --platform android --log-level trace --sdk 6.0.4.GA --project-dir C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu --target device --android-sdk C:\android-sdk-win --device-id L2I640G82EG4006A --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60868 --config-file C:\Users\ameen\AppData\Local\Temp\build-1499328714405.json --no-banner --project-dir C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu
+
+[DEBUG]  Detecting modules in C:\ProgramData\Titanium\modules
+[DEBUG]  Detected android module: facebook 6.0.1 @ C:\ProgramData\Titanium\modules\android\facebook\6.0.1
+[DEBUG]  Detected android module: facebook 6.1.0 @ C:\ProgramData\Titanium\modules\android\facebook\6.1.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ C:\ProgramData\Titanium\modules\android\hyperloop\1.2.8
+[DEBUG]  Detected android module: hyperloop 2.1.0 @ C:\ProgramData\Titanium\modules\android\hyperloop\2.1.0
+[DEBUG]  Detected android module: hyperloop 2.1.2 @ C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ C:\ProgramData\Titanium\modules\android\ti.cloudpush\4.0.3
+[DEBUG]  Detected android module: ti.map 3.0.1 @ C:\ProgramData\Titanium\modules\android\ti.map\3.0.1
+[DEBUG]  Detected android module: ti.touchid 2.0.1 @ C:\ProgramData\Titanium\modules\android\ti.touchid\2.0.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ C:\ProgramData\Titanium\modules\android\ti.touchid\2.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Detected windows module: hyperloop 2.1.0 @ C:\ProgramData\Titanium\modules\windows\hyperloop\2.1.0
+[DEBUG]  Detected windows module: hyperloop 2.1.2 @ C:\ProgramData\Titanium\modules\windows\hyperloop\2.1.2
+[DEBUG]  Looking for Titanium module id=hyperloop version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=hyperloop version=2.1.2 platform=android deploy-type=development path=C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2
+[DEBUG]  Found incompatible Titanium module id=hyperloop version=1.2.8 platform=android api-version=2 deploy-type=development
+[DEBUG]  Module hyperloop has apiversion=2, but the selected SDK supports module apiversion=3 on platform=android
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Detecting plugins in C:\ProgramData\Titanium\plugins
+[DEBUG]  Detected plugin: hyperloop 1.2.8 @ C:\ProgramData\Titanium\plugins\hyperloop\1.2.8
+[DEBUG]  Detected plugin: hyperloop 2.1.0 @ C:\ProgramData\Titanium\plugins\hyperloop\2.1.0
+[DEBUG]  Detected plugin: hyperloop 2.1.2 @ C:\ProgramData\Titanium\plugins\hyperloop\2.1.2
+[DEBUG]  Looking for Titanium plugin id=hyperloop version=latest
+[INFO]   Found Titanium plugin id=hyperloop version=latest 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android
+[INFO]   Deploy type: development
+[INFO]   Building for target: device
+[INFO]   Building for device: L2I640G82EG4006A
+[INFO]   Targeting Android SDK API: 23
+[INFO]   Building for the following architectures: armeabi-v7a, x86
+[INFO]   Signing with keystore: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\dev_keystore (tidev)
+[DEBUG]  App ID: com.anujtiwari
+[DEBUG]  Classname: Calcu
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\build-manifest.json does not exist
+[INFO]   Starting Hyperloop assembly
+[TRACE]  Generating metabase for JARs: C:\android-sdk-win\platforms\android-23\android.jar,C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar,C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar
+[INFO]   [Hyperloop] Using system metabase cache file at C:\Users\Public\Documents\Wondershare\CreatorTemp\hyperloop_android-23_metabase.b916d32999a24b44c5aa0f8642f9da2917f3978a.json.gz
+[TRACE]  Searching for hyperloop requires in: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\.liveviewapp.js
+[TRACE]  Checking require for: ti.cloud
+[TRACE]  Searching for hyperloop requires in: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\app.js
+[TRACE]  Checking require for: ti.cloud
+[INFO]   Skipping Hyperloop compile, no usage found ...
+[INFO]   Finished Hyperloop assembly
+[TRACE]  offline build file C:\Users\ameen\AppData\Local\Temp\build-233911fcaaddaf441c2dda66c4b9ede92c190940.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"anujtiwary69@gmail.com","session":"aa904f2b5ab32486eed7a3fff16e641b84a40ddc 3H66TMyrC8j2fxMofvMw+ZB5zm8Mkzn9LFzPHrckhsyTzqqfIB0O05S06B9rl6U70WBps0UBW46EdyZ4YZZuHcMBjmzvkjlJmVbvsXGvcXnAeWU/aqFC5xp/rvvonrn2HozX7PE2+oIzdomo+yveRwQepEK+nnBGwXiIdjTfkcaHt303t8HQnmS5RLOS/f9miMc3GTTWMT8/YSI1uG8yNfTkv4YPE1s/+LqZWLH59K1agDwn0mDUrSf7cToS+9pjTaljDvELDspHdNH7HJgelOrKgP3p4FlldekOMqlXvdXyWXgpWF1THOlplfZUPi9Nf33cTxMoxqrO+yBf5twfoNK/24/tUnyNVKRpl83fH1ToErD9WodvmLJKmsVDY9Tmu3aHesfU+WRzkw0BKUTggKGtOu6cQe8n/aeESscZDrGnVsIIwa8DFtF87e/Dt5Xt/FP8GXIMvX5FsXfyJL+hjoGxlaN6+yG5ANl3A5E2AEYexsM7HAK9rC6sKzEh7hLW2FIT+F+pKjMvT5wlbhWxrV0I6Fk0JMGBQuJ/heFvL0U2PXve4Kpq4qdg+kw2+CpykWmkqqtvvXYvvagPHYJ2vtolRuNblu/jK12sHafGxkLrO3foq9zs1RqfMrCEl+CDGuSNxgbS4U3RLGF74ph3PZPldH0vM4iHgO7jhaphzgA60/Tw2Q0p46mDTZ5SWk0JQwtO75YCUWXIhjEv7s1WThmAX5h6283C9Q1CijBgU38=","ipaddress":"192.168.1.181","fingerprint":"39d69cf126f2bfa74cf417b6a84f35eca453c28b","fingerprint_description":"Windows Machine ID: 6660dbab-c2b4-4d63-bdd0-6950b42edd28","guid":"a4bb7593-6cc7-48b1-9777-2abefe261080","appid":"com.anujtiwari","name":"CalCu","org_id":308464082107556,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.anujtiwari</id>\n  <name>CalCu</name>\n  <version>1.0</version>\n  <publisher>ameen</publisher>\n  <url/>\n  <description/>\n  <copyright>2017 by ameen</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>a4bb7593-6cc7-48b1-9777-2abefe261080</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <property name=\"run-on-main-thread\" type=\"bool\">***</property>\n  <ios>\n    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>\n    <use-app-thinning>true</use-app-thinning>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"android\">hyperloop</module>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"iphone\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"android\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>6.0.4.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">595df00a73e7625cdba10e19</property>\n    <plugins>\n      <plugin>hyperloop</plugin>\n    </plugins>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">308464082107556</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">5f7a516e-5db5-4759-95c1-849e63bd650b</property>\n  </ti:app>","modules":[{"id":"hyperloop","platform":["android"],"deployType":["development"],"modulePath":"C:\\ProgramData\\Titanium\\modules\\android\\hyperloop\\2.1.2","version":"2.1.2","manifest":{"version":"2.1.2","apiversion":"3","architectures":"armeabi-v7a x86","description":"hyperloop-android","author":"Appcelerator","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2016 Appcelerator, Inc.","name":"hyperloop-android","moduleid":"hyperloop","guid":"bdaca69f-b316-4ce6-9065-7a61e1dafa39","platform":"android","minsdk":"6.0.0"},"native":true,"jarName":"hyperloop-android.jar","jarFile":"C:\\ProgramData\\Titanium\\modules\\android\\hyperloop\\2.1.2\\hyperloop-android.jar","hash":"83777dd1685f54ba48efda720b931db7","abis":["armeabi-v7a","x86"],"bindings":{"proxies":{"hyperloop.HyperloopModule":{"superPackageName":"org.appcelerator.kroll","methods":{"extend":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"className","sourceName":"className","type":"java.lang.String"}],"apiName":"extend","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.BaseProxy"},"cast":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"className","sourceName":"className","type":"java.lang.String"},{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"object","sourceName":"object","type":"java.lang.Object"}],"apiName":"cast","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.InstanceProxy"},"getClass":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"className","sourceName":"className","type":"java.lang.String"}],"apiName":"getClass","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.ClassProxy"},"implement":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"className","sourceName":"className","type":"java.lang.String"}],"apiName":"implement","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.BaseProxy"}},"superProxyBindingClassName":"org.appcelerator.kroll.KrollModuleBindingGen","proxyClassName":"HyperloopModule","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop","name":"Hyperloop","proxyClassName":"hyperloop.HyperloopModule","isTopLevel":false,"id":"hyperloop"},"packageName":"hyperloop","sourceName":"hyperloop.HyperloopModuleBindingGen","superProxyClassName":"KrollModule","isModule":true,"genClassName":"HyperloopModuleBindingGen","onAppCreate":"onAppCreate"},"hyperloop.InstanceProxy":{"superPackageName":"hyperloop","dynamicProperties":{"super":{"set":false,"nativeConverter":"org.appcelerator.kroll.KrollConverter","getMethodName":"getSuper","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","javascriptConverter":"org.appcelerator.kroll.KrollConverter","getHasInvocation":false,"runOnUiThread":false,"getMethodArgs":[],"getReturnType":"hyperloop.InstanceProxy","get":true,"name":"super","setHasInvocation":false,"getDefaultProviders":[]},"isInstanceProxy":{"set":false,"nativeConverter":"org.appcelerator.kroll.KrollConverter","getMethodName":"getIsInstanceProxy","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","javascriptConverter":"org.appcelerator.kroll.KrollConverter","getHasInvocation":false,"runOnUiThread":false,"getMethodArgs":[],"getReturnType":"boolean","get":true,"name":"isInstanceProxy","setHasInvocation":false,"getDefaultProviders":[]}},"methods":{"isInstanceOf":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"className","sourceName":"className","type":"java.lang.String"}],"apiName":"isInstanceOf","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"boolean"},"setOverrides":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"overrides","sourceName":"overrides","type":"org.appcelerator.kroll.KrollDict"}],"apiName":"setOverrides","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"void"},"getSuper":{"runOnUiThread":false,"hasInvocation":false,"args":[],"apiName":"getSuper","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.InstanceProxy"}},"superProxyBindingClassName":"hyperloop.BaseProxyBindingGen","proxyClassName":"InstanceProxy","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop.Instance","name":"Instance","proxyClassName":"hyperloop.InstanceProxy","isTopLevel":false,"id":"hyperloop.InstanceProxy","parentModule":"hyperloop.HyperloopModule","creatableInModule":"org.appcelerator.kroll.annotations.Kroll.DEFAULT"},"packageName":"hyperloop","sourceName":"hyperloop.InstanceProxyBindingGen","superProxyClassName":"BaseProxy","isModule":false,"genClassName":"InstanceProxyBindingGen"},"hyperloop.DynamicSubclassProxy":{"superPackageName":"hyperloop","superProxyBindingClassName":"hyperloop.ClassProxyBindingGen","proxyClassName":"DynamicSubclassProxy","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop.DynamicSubclass","name":"DynamicSubclass","proxyClassName":"hyperloop.DynamicSubclassProxy","isTopLevel":false,"id":"hyperloop.DynamicSubclassProxy","parentModule":"hyperloop.HyperloopModule","creatableInModule":"org.appcelerator.kroll.annotations.Kroll.DEFAULT"},"packageName":"hyperloop","sourceName":"hyperloop.DynamicSubclassProxyBindingGen","superProxyClassName":"ClassProxy","isModule":false,"genClassName":"DynamicSubclassProxyBindingGen"},"hyperloop.InterfaceSubclassProxy":{"superPackageName":"hyperloop","methods":{"newInstance":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"initArgs","sourceName":"initArgs","type":"java.lang.Object[]"}],"apiName":"newInstance","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.InstanceProxy"}},"superProxyBindingClassName":"hyperloop.DynamicSubclassProxyBindingGen","proxyClassName":"InterfaceSubclassProxy","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop.InterfaceSubclass","name":"InterfaceSubclass","proxyClassName":"hyperloop.InterfaceSubclassProxy","isTopLevel":false,"id":"hyperloop.InterfaceSubclassProxy","parentModule":"hyperloop.HyperloopModule","creatableInModule":"org.appcelerator.kroll.annotations.Kroll.DEFAULT"},"packageName":"hyperloop","sourceName":"hyperloop.InterfaceSubclassProxyBindingGen","superProxyClassName":"DynamicSubclassProxy","isModule":false,"genClassName":"InterfaceSubclassProxyBindingGen"},"hyperloop.ClassProxy":{"superPackageName":"hyperloop","dynamicProperties":{"isClassProxy":{"set":false,"nativeConverter":"org.appcelerator.kroll.KrollConverter","getMethodName":"getIsClassProxy","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","javascriptConverter":"org.appcelerator.kroll.KrollConverter","getHasInvocation":false,"runOnUiThread":false,"getMethodArgs":[],"getReturnType":"boolean","get":true,"name":"isClassProxy","setHasInvocation":false,"getDefaultProviders":[]}},"methods":{"newInstance":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"initArgs","sourceName":"initArgs","type":"java.lang.Object[]"}],"apiName":"newInstance","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"hyperloop.InstanceProxy"}},"superProxyBindingClassName":"hyperloop.BaseProxyBindingGen","proxyClassName":"ClassProxy","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop.Class","name":"Class","proxyClassName":"hyperloop.ClassProxy","isTopLevel":false,"id":"hyperloop.ClassProxy","parentModule":"hyperloop.HyperloopModule","creatableInModule":"org.appcelerator.kroll.annotations.Kroll.DEFAULT"},"packageName":"hyperloop","sourceName":"hyperloop.ClassProxyBindingGen","superProxyClassName":"BaseProxy","isModule":false,"genClassName":"ClassProxyBindingGen"},"hyperloop.BaseProxy":{"superPackageName":"org.appcelerator.titanium.proxy","methods":{"callNativeFunction":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"args","sourceName":"args","type":"java.lang.Object[]"}],"apiName":"callNativeFunction","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"java.lang.Object"},"setNativeField":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"fieldName","sourceName":"fieldName","type":"java.lang.String"},{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"newValue","sourceName":"newValue","type":"java.lang.Object"}],"apiName":"setNativeField","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"void"},"getApiName":{"runOnUiThread":false,"hasInvocation":false,"args":[],"apiName":"getApiName","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"java.lang.String"},"getNativeField":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"fieldName","sourceName":"fieldName","type":"java.lang.String"}],"apiName":"getNativeField","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"java.lang.Object"}},"dynamicProperties":{"apiName":{"set":false,"nativeConverter":"org.appcelerator.kroll.KrollConverter","getMethodName":"getApiName","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","javascriptConverter":"org.appcelerator.kroll.KrollConverter","getHasInvocation":false,"runOnUiThread":false,"getMethodArgs":[],"getReturnType":"java.lang.String","get":true,"name":"apiName","setHasInvocation":false,"getDefaultProviders":[]},"isNativeProxy":{"set":false,"nativeConverter":"org.appcelerator.kroll.KrollConverter","getMethodName":"getIsNativeProxy","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","javascriptConverter":"org.appcelerator.kroll.KrollConverter","getHasInvocation":false,"runOnUiThread":false,"getMethodArgs":[],"getReturnType":"boolean","get":true,"name":"isNativeProxy","setHasInvocation":false,"getDefaultProviders":[]}},"superProxyBindingClassName":"org.appcelerator.titanium.proxy.TiViewProxyBindingGen","proxyClassName":"BaseProxy","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Hyperloop.Base","name":"Base","proxyClassName":"hyperloop.BaseProxy","isTopLevel":false,"id":"hyperloop.BaseProxy","parentModule":"hyperloop.HyperloopModule","creatableInModule":"org.appcelerator.kroll.annotations.Kroll.DEFAULT"},"packageName":"hyperloop","sourceName":"hyperloop.BaseProxyBindingGen","superProxyClassName":"TiViewProxy","isModule":false,"genClassName":"BaseProxyBindingGen"}},"modules":{"hyperloop.HyperloopModule":{"apiName":"Hyperloop"}}}},{"id":"ti.cloud","platform":["commonjs"],"deployType":["development"],"modulePath":"C:\\ProgramData\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.11","version":"3.2.11","manifest":{"version":"3.2.11","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"C:\\ProgramData\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.11\\ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://platform.appcelerator.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"TyhT6hRsqRpySMxpeUDqjA==","pepper":"oIEZhuKo49wKEMuAhSi/jw==","hmacKey":"W7V3bE8vPPzYvdAmvFGrEw==","o":308464082107556,"u":"5f7a516e-5db5-4759-95c1-849e63bd650b","p":"free","i":"595df0d273e7625cdba10e44","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources
+[DEBUG]  Ignoring C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab1.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab1.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab1@2x.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab1@2x.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab1@3x.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab1@3x.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab2.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab2.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab2@2x.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab2@2x.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\assets\images\tab2@3x.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\assets\images\tab2@3x.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\appicon.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-long-land-hdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-long-land-ldpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-long-port-hdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-long-port-ldpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-land-hdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-land-ldpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-land-mdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-port-hdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-port-ldpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\android\images\res-notlong-port-mdpi\default.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG]  Copying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Ignoring C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\documentation
+[DEBUG]  Ignoring C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\example
+[DEBUG]  Copying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\LICENSE => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\ti.cloud\LICENSE
+[DEBUG]  Copying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\manifest => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\ti.cloud\manifest
+[DEBUG]  Copying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\package.json => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\ti.cloud\package.json
+[DEBUG]  Copying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\assets
+[DEBUG]  Copying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\Resources\appicon.png => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\drawable\appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\Resources\.liveviewapp.js => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\assets\.liveviewapp.js
+[DEBUG]  Copying and minifying C:\Users\Public\Documents\Wondershare\CreatorTemp\liveview.js => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\assets\app.js
+[DEBUG]  Copying and minifying C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11\ti.cloud.js => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\assets\ti.cloud\ti.cloud.js
+[INFO]   Encrypting JavaScript files: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\titanium_prep.win32.exe "com.anujtiwari" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\assets" "--file-listing" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\titanium_prep_listing.txt"
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-v8.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\aps-analytics.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-android.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-common.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\titanium.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-multidex.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-app.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-ui.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-media.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-locale.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-network.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-xml.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-map.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-calendar.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-database.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-accelerometer.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-platform.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-contacts.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-utils.jar
+[DEBUG]  Unknown namespace app.deploytype, skipping
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Unknown namespace stream, skipping
+[DEBUG]  Unknown namespace ui.ios, skipping
+[INFO]   Writing C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets\app.json
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-analytics.res.zip
+[DEBUG]  Copying C:\Users\ameen\AppData\Local\Temp\11766-13804-mxti29\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-android.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-14cpp5s\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-filesystem.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1u5q29w\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-app.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-gooo1i\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-media.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-rsyeom\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-locale.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-17neqdv\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-network.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1ola5wl\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-xml.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1xe6zb7\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-map.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-11ymq7r\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-calendar.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-elja6r\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-geolocation.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-t1jl7h\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-database.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-4jm6ey\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-accelerometer.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1buujhu\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-platform.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-ynuy6d\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-gesture.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1biyhvw\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-contacts.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1dbce6z\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-utils.res.zip
+[DEBUG]  Merging C:\Users\ameen\AppData\Local\Temp\11766-13804-1w893c9\res\values\strings.xml => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\AppInfo.java => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\gen\com\anujtiwari\CalcuAppInfo.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\App.java => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\gen\com\anujtiwari\CalcuApplication.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\Activity.java => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\gen\com\anujtiwari\CalcuActivity.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\project => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\.project
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\default.properties => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\default.properties
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\gitignore => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\.gitignore
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\templates\build\classpath => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Merging en strings => C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\strings.xml
+[INFO]   Generating C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res\values\theme.xml
+[INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.1\aapt.exe "package" "-f" "-m" "-J" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\gen" "-M" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\AndroidManifest.xml" "-A" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\assets" "-S" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\res" "-I" "C:\android-sdk-win\platforms\android-23\android.jar" "-F" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "C:\Users\ameen\AppData\Local\Temp\11766-13804-15i0le/res" "-S" "C:\Users\ameen\AppData\Local\Temp\11766-13804-1em2pav/res" "-S" "C:\Users\ameen\AppData\Local\Temp\11766-13804-6qc3pr/res"
+[INFO]   Building Java source files: C:\Program Files (x86)\Java\jdk1.7.0_80\bin\javac.exe "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "C:\android-sdk-win\platforms\android-23\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-multidex.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-cardview.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\cardview-v7-23.0.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-map.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-calendar.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-geolocation.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-database.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-accelerometer.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-gesture.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-contacts.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-utils.jar;C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\hyperloop-android.jar;C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-1.4.jar;C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-dx-1.4.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-apt.jar;C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\lib\titanium-verify.jar;R.class;AssetCryptImpl.class;CalcuActivity.class;CalcuAppInfo.class;CalcuApplication.class" "-d" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\java-sources.txt"
+[DEBUG]  Skipping duplicate JAR: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar (duplicates C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar)
+[DEBUG]  Skipping duplicate JAR: C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar (duplicates C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar)
+[INFO]   Running dexer: C:\Program Files (x86)\Java\jdk1.7.0_80\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=C:\android-sdk-win\platform-tools" "-jar" "C:\android-sdk-win\build-tools\23.0.1\lib\dx.jar" "--dex" "--multi-dex" "--output=C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\dexfiles" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\lib\titanium-verify.jar" "C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\hyperloop-android.jar" "C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-1.4.jar" "C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-dx-1.4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-multidex.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-cardview.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\cardview-v7-23.0.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-map.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-calendar.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-geolocation.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-database.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-accelerometer.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-gesture.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-contacts.jar" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-utils.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1@2x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab1@3x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2@2x.png
+[DEBUG]  Adding assets/Resources/assets/images/tab2@3x.png
+[DEBUG]  Deflating assets/Resources/ti.cloud/LICENSE
+[DEBUG]  Deflating assets/Resources/ti.cloud/manifest
+[DEBUG]  Deflating assets/Resources/ti.cloud/package.json
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Deflating res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/appicon.png
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_lines.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/notification_media_action.xml
+[DEBUG]  Deflating res/layout/notification_media_cancel_action.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout/notification_template_lines.xml
+[DEBUG]  Deflating res/layout/notification_template_media.xml
+[DEBUG]  Deflating res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\hyperloop-android.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-1.4.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\modules\android\hyperloop\2.1.2\lib\dexmaker-dx-1.4.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-v8.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\aps-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-android.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\kroll-common.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-multidex.jar
+[DEBUG]  Deflating android-support-multidex.version.txt
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-app.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-media.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v4.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-locale.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-network.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-xml.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-map.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-calendar.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-database.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-accelerometer.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-platform.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-gesture.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-contacts.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\modules\titanium-utils.jar
+[INFO]   Processing C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\dexfiles
+[DEBUG]  Adding classes.dex
+[INFO]   Processing C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\src
+[DEBUG]  Adding lib/armeabi-v7a/libc++_shared.so
+[DEBUG]  Adding lib/armeabi-v7a/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi-v7a/libtiverify.so
+[DEBUG]  Adding lib/x86/libc++_shared.so
+[DEBUG]  Adding lib/x86/libkroll-v8.so
+[DEBUG]  Adding lib/x86/libtiverify.so
+[DEBUG]  Adding lib/armeabi-v7a/libhyperloop.so
+[DEBUG]  Adding lib/x86/libhyperloop.so
+[INFO]   Writing unsigned apk: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: C:\Program Files (x86)\Java\jdk1.7.0_80\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "C:\ProgramData\Titanium\mobilesdk\win32\6.0.4.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\CalCu.apk" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: C:\android-sdk-win\build-tools\23.0.1\zipalign.exe "-v" "4" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\CalCu.apk" "C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\CalCu.apkz"
+[INFO]   Writing build manifest: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\CalCu.apk
+[INFO]   Installing app on device: LAVA_A3
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: C:\android-sdk-win\platform-tools\adb.exe -s L2I640G82EG4006A install -r -d C:\Users\ameen\Documents\Appcelerator_Studio_Workspace\CalCu\build\android\bin\CalCu.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.anujtiwari/.CalcuActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 31979
+[INFO]   Project built successfully in 1m 992ms

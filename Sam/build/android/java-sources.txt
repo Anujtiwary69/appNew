@@ -1,0 +1,8 @@
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/android/support/v7/appcompat/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/android/support/v7/cardview/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/com/anujtiwary/AssetCryptImpl.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/com/anujtiwary/R.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/com/anujtiwary/SamActivity.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/com/anujtiwary/SamAppInfo.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/com/anujtiwary/SamApplication.java"
+"C:/Users/ameen/Documents/Appcelerator_Studio_Workspace/Sam/build/android/gen/ti/modules/titanium/ui/R.java"

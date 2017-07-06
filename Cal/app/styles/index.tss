@@ -1,0 +1,43 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+".label": {
+	font: {
+		fontSize: 12
+	}
+}
+"View":{
+	
+}
+"#displaycenter":{
+	top:-300
+}
+"#Displaytext":{
+	font: {
+        fontSize: '50dp',
+        fontWeight: 'bold'
+    }	
+}
+"#panel":{
+	top:300
+}
+"Button":
+{
+	backgroundColor:"#e61875",
+	left:5,
+	bottom:5
+}
+
+
+
+
+
+
+
