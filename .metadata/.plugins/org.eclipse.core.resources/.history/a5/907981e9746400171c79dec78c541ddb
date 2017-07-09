@@ -1,0 +1,88 @@
+var Button = [];
+ for(i=0;i<15;i++)
+ {
+ 	if(i<10)
+ 	{
+ 		Button =Ti.UI.createButton({
+	 	    title: i,
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#ea2d6d',
+	     	left:10,
+	     	bottom:10,
+	     	value : i
+     	 });
+ 	}
+ 	else if(i==10){
+ 		Button =Ti.UI.createButton({
+	 	    title: "C",
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'blue',
+	     	left:10,
+	     	bottom:10,
+	     	value : "c"
+     	 });
+ 	}
+ 	else if(i==11){
+ 		Button =Ti.UI.createButton({
+	 	    title: "+",
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#ea2d6d',
+	     	left:10,
+	     	bottom:10,
+	     	value : "+"
+     	 });
+ 	}
+ 	else if(i==12){
+ 		Button =Ti.UI.createButton({
+	 	    title: "-",
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#ea2d6d',
+	     	left:10,
+	     	bottom:10,
+	     	value : "-"
+     	 });
+ 	}
+ 	 	else if(i==13){
+ 		Button =Ti.UI.createButton({
+	 	    title: "/",
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#ea2d6d',
+	     	left:10,
+	     	bottom:10,
+	     	value : "/"
+     	 });
+ 	}
+ 	
+ 	 	else if(i==14){
+ 		Button =Ti.UI.createButton({
+	 	    title: "*",
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#ea2d6d',
+	     	left:10,
+	     	bottom:10,
+	     	value : "x"
+     	 });
+ 	}
+ 	
+ 	
+ 	
+ 	 
+
+  Button.addEventListener("click", function(e) {
+  	if(this.value=='c')
+  	{
+  		label.text="0";
+  	}
+  	else
+  	{
+  		label.text+=this.value;
+  	}
+});
+ view02.add(Button);
+ }

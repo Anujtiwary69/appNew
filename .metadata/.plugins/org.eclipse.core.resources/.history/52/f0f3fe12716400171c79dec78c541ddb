@@ -1,0 +1,5 @@
+window.open();
+view01.add(label);
+view02.add(Button);
+window.add(view01);
+window.add(view02);

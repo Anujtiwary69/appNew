@@ -1,0 +1,29 @@
+var Button = [];
+ for(i=0;i<15;i++)
+ {
+ 	if(i<10)
+ 	{
+ 		Button =Ti.UI.createButton({
+	 	    title: i,
+	        width: 50,
+	     	height: 50,
+	     	backgroundColor:'#f4f4f4',
+	     	left:10,
+	     	bottom:10,
+	     	value : i
+     	 });
+ 	}
+ 	
+
+  Button.addEventListener("click", function(e) {
+  	if(this.value=='c')
+  	{
+  		label.text="0";
+  	}
+  	else
+  	{
+  		label.text+=this.value;
+  	}
+});
+ view02.add(Button);
+ }

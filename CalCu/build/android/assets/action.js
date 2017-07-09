@@ -1,0 +1,1 @@
+window.open(),view01.add(mainText),view01.add(Totaltext),view02.add(Button),window.add(view01),window.add(view02);
